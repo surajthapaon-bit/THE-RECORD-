@@ -1,4 +1,3 @@
-```python
 import streamlit as st
 from datetime import datetime
 
@@ -782,12 +781,3 @@ This statement is the record. The record stands.<br><br>
 — Suraj Thapa
 </div>
 """, unsafe_allow_html=True)
-```
-
----
-
-Step 4: Scroll to the very bottom. The last visible line should be:
-
-```
-""", unsafe_allow_html=True)
-```
