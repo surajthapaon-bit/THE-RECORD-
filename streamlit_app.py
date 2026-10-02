@@ -12,149 +12,27 @@ st.markdown("""
 <style>
     .stApp {background-color: #f7f5f0;}
     .block-container {max-width: 820px; padding-top: 2.5rem; padding-bottom: 5rem;}
-
-    h1.title {
-        text-align: center;
-        font-family: Georgia, 'Times New Roman', serif;
-        letter-spacing: 6px;
-        font-size: 2.1rem;
-        font-weight: 700;
-        color: #111;
-        margin-bottom: 0.2rem;
-    }
-    .subtitle {
-        text-align: center;
-        font-family: Georgia, serif;
-        letter-spacing: 4px;
-        font-size: 0.85rem;
-        color: #444;
-        margin-bottom: 2.2rem;
-    }
-    .header-block {
-        font-family: Georgia, serif;
-        font-size: 0.95rem;
-        line-height: 1.9;
-        border-top: 3px solid #111;
-        border-bottom: 3px solid #111;
-        padding: 1.3rem 0;
-        margin: 1rem 0 2.5rem 0;
-        color: #111;
-    }
+    h1.title {text-align: center; font-family: Georgia, serif; letter-spacing: 6px; font-size: 2.1rem; font-weight: 700; color: #111; margin-bottom: 0.2rem;}
+    .subtitle {text-align: center; font-family: Georgia, serif; letter-spacing: 4px; font-size: 0.85rem; color: #444; margin-bottom: 2.2rem;}
+    .header-block {font-family: Georgia, serif; font-size: 0.95rem; line-height: 1.9; border-top: 3px solid #111; border-bottom: 3px solid #111; padding: 1.3rem 0; margin: 1rem 0 2.5rem 0; color: #111;}
     .header-block b {letter-spacing: 1px;}
-
-    .section {
-        margin-top: 2.6rem;
-        margin-bottom: 0.6rem;
-        padding-bottom: 0.4rem;
-        border-bottom: 1px solid #111;
-        font-family: Georgia, serif;
-        font-size: 0.78rem;
-        letter-spacing: 3px;
-        color: #111;
-        font-weight: 700;
-        text-transform: uppercase;
-    }
-    .item {
-        font-family: Georgia, serif;
-        font-size: 1rem;
-        line-height: 1.8;
-        color: #1a1a1a;
-        margin-bottom: 1.15rem;
-    }
-    .num {
-        font-weight: 700;
-        margin-right: 0.6rem;
-        color: #000;
-    }
-    .sub {
-        display: block;
-        margin-top: 0.45rem;
-        margin-left: 1.7rem;
-        font-size: 0.9rem;
-        color: #555;
-        line-height: 1.7;
-        font-style: italic;
-    }
-    .exhibit {
-        font-family: 'Courier New', monospace;
-        font-size: 0.85rem;
-        line-height: 1.7;
-        color: #222;
-        background-color: #efece5;
-        padding: 1rem 1.2rem;
-        margin: 1rem 0;
-        border-left: 3px solid #111;
-    }
-    .def {
-        font-family: Georgia, serif;
-        font-size: 0.95rem;
-        line-height: 1.75;
-        color: #222;
-        margin-bottom: 1rem;
-    }
+    .section {margin-top: 2.6rem; margin-bottom: 0.6rem; padding-bottom: 0.4rem; border-bottom: 1px solid #111; font-family: Georgia, serif; font-size: 0.78rem; letter-spacing: 3px; color: #111; font-weight: 700; text-transform: uppercase;}
+    .item {font-family: Georgia, serif; font-size: 1rem; line-height: 1.8; color: #1a1a1a; margin-bottom: 1.15rem;}
+    .num {font-weight: 700; margin-right: 0.6rem; color: #000;}
+    .sub {display: block; margin-top: 0.45rem; margin-left: 1.7rem; font-size: 0.9rem; color: #555; line-height: 1.7; font-style: italic;}
+    .exhibit {font-family: 'Courier New', monospace; font-size: 0.85rem; line-height: 1.7; color: #222; background-color: #efece5; padding: 1rem 1.2rem; margin: 1rem 0; border-left: 3px solid #111;}
+    .def {font-family: Georgia, serif; font-size: 0.95rem; line-height: 1.75; color: #222; margin-bottom: 1rem;}
     .def b {letter-spacing: 0.5px;}
-    .callout {
-        font-family: Georgia, serif;
-        font-size: 1.02rem;
-        line-height: 1.9;
-        color: #111;
-        border-left: 4px solid #111;
-        padding: 0.9rem 1.2rem;
-        margin: 1.6rem 0;
-        background-color: #efece5;
-        font-style: italic;
-    }
-    .stamp {
-        text-align: center;
-        font-family: Georgia, serif;
-        font-weight: 700;
-        letter-spacing: 8px;
-        font-size: 1.15rem;
-        color: #8a1f1f;
-        border: 3px double #8a1f1f;
-        padding: 1rem 1.4rem;
-        margin: 3rem auto 1.4rem auto;
-        max-width: 420px;
-        transform: rotate(-1.4deg);
-    }
-    .signature-block {
-        font-family: Georgia, serif;
-        font-size: 0.9rem;
-        line-height: 1.9;
-        color: #333;
-        border-top: 1px solid #999;
-        border-bottom: 1px solid #999;
-        padding: 1.2rem 0;
-        margin: 2rem 0;
-    }
-    .footer {
-        margin-top: 3rem;
-        padding-top: 1.2rem;
-        border-top: 1px solid #999;
-        font-family: Georgia, serif;
-        font-size: 0.78rem;
-        color: #666;
-        text-align: center;
-        letter-spacing: 1px;
-        line-height: 1.9;
-    }
-    .status {
-        text-align: center;
-        font-family: Georgia, serif;
-        font-weight: 700;
-        letter-spacing: 5px;
-        font-size: 0.85rem;
-        color: #8a1f1f;
-        margin-bottom: 0.6rem;
-    }
+    .callout {font-family: Georgia, serif; font-size: 1.02rem; line-height: 1.9; color: #111; border-left: 4px solid #111; padding: 0.9rem 1.2rem; margin: 1.6rem 0; background-color: #efece5; font-style: italic;}
+    .stamp {text-align: center; font-family: Georgia, serif; font-weight: 700; letter-spacing: 8px; font-size: 1.15rem; color: #8a1f1f; border: 3px double #8a1f1f; padding: 1rem 1.4rem; margin: 3rem auto 1.4rem auto; max-width: 420px; transform: rotate(-1.4deg);}
+    .signature-block {font-family: Georgia, serif; font-size: 0.9rem; line-height: 1.9; color: #333; border-top: 1px solid #999; border-bottom: 1px solid #999; padding: 1.2rem 0; margin: 2rem 0;}
+    .footer {margin-top: 3rem; padding-top: 1.2rem; border-top: 1px solid #999; font-family: Georgia, serif; font-size: 0.78rem; color: #666; text-align: center; letter-spacing: 1px; line-height: 1.9;}
+    .status {text-align: center; font-family: Georgia, serif; font-weight: 700; letter-spacing: 5px; font-size: 0.85rem; color: #8a1f1f; margin-bottom: 0.6rem;}
 </style>
 """, unsafe_allow_html=True)
 
 issued = datetime.now().strftime("%B %d, %Y — %H:%M")
 
-# ============================================================
-# HEADER
-# ============================================================
 st.markdown('<h1 class="title">STATEMENT OF ACCOUNT</h1>', unsafe_allow_html=True)
 st.markdown('<div class="status">FINAL · DUE UPON RECEIPT · NO REVISIONS</div>', unsafe_allow_html=True)
 st.markdown('<div class="subtitle">ISSUED TO STEPHANIE · ISSUED BY SURAJ THAPA</div>', unsafe_allow_html=True)
@@ -171,9 +49,6 @@ st.markdown(f"""
 </div>
 """, unsafe_allow_html=True)
 
-# ============================================================
-# PREAMBLE
-# ============================================================
 st.markdown('<div class="section">Preamble</div>', unsafe_allow_html=True)
 
 st.markdown("""
@@ -201,9 +76,6 @@ If you don't — I will see that too. Either way, I am not explaining again.
 </div>
 """, unsafe_allow_html=True)
 
-# ============================================================
-# SECTION I — WHAT IS REAL
-# ============================================================
 st.markdown('<div class="section">Section I — What Is Real, and Is Not Being Erased</div>', unsafe_allow_html=True)
 
 st.markdown("""
@@ -234,9 +106,6 @@ st.markdown("""
 </div>
 """, unsafe_allow_html=True)
 
-# ============================================================
-# SECTION II — THE FOUNDATION IS NOT MINE TO TEACH
-# ============================================================
 st.markdown('<div class="section">Section II — The Foundation Is Not Mine to Teach</div>', unsafe_allow_html=True)
 
 st.markdown("""
@@ -274,9 +143,6 @@ st.markdown("""
 </div>
 """, unsafe_allow_html=True)
 
-# ============================================================
-# SECTION III — NO PROGRESS WITHOUT LANGUAGE
-# ============================================================
 st.markdown('<div class="section">Section III — No Progress Without Language</div>', unsafe_allow_html=True)
 
 st.markdown("""
@@ -307,9 +173,6 @@ st.markdown("""
 </div>
 """, unsafe_allow_html=True)
 
-# ============================================================
-# SECTION IV — VERIFICATION, NOT ASSUMPTION
-# ============================================================
 st.markdown('<div class="section">Section IV — Verification, Not Assumption</div>', unsafe_allow_html=True)
 
 st.markdown("""
@@ -340,10 +203,7 @@ st.markdown("""
 </div>
 """, unsafe_allow_html=True)
 
-# ============================================================
-# SECTION V — DEFINITIONS
-# ============================================================
-st.markdown('<div class="section">Section V — Definitions, So There Is No Interpretation Gap Later</div>', unsafe_allow_html=True)
+st.markdown('<div class="section">Section V — Definitions</div>', unsafe_allow_html=True)
 
 st.markdown("""
 <div class="def">
@@ -387,9 +247,6 @@ st.markdown("""
 </div>
 """, unsafe_allow_html=True)
 
-# ============================================================
-# SECTION VI — WHAT I HAVE OBSERVED
-# ============================================================
 st.markdown('<div class="section">Section VI — What I Have Observed, On the Record</div>', unsafe_allow_html=True)
 
 st.markdown("""
@@ -434,9 +291,6 @@ st.markdown("""
 </div>
 """, unsafe_allow_html=True)
 
-# ============================================================
-# SECTION VII — EXHIBIT A
-# ============================================================
 st.markdown('<div class="section">Exhibit A — Specific Recorded Observations</div>', unsafe_allow_html=True)
 
 st.markdown("""
@@ -488,9 +342,6 @@ Three and a half years. Food brought to me while I was working. Ordinary days. R
 </div>
 """, unsafe_allow_html=True)
 
-# ============================================================
-# SECTION VIII — WHAT I OWN
-# ============================================================
 st.markdown('<div class="section">Section VIII — What I Own, Fully</div>', unsafe_allow_html=True)
 
 st.markdown("""
@@ -514,9 +365,6 @@ st.markdown("""
 </div>
 """, unsafe_allow_html=True)
 
-# ============================================================
-# SECTION VIII-B — MY PART, IN FULL
-# ============================================================
 st.markdown('<div class="section">Section VIII-B — My Part, In Full, On the Record</div>', unsafe_allow_html=True)
 
 st.markdown("""
@@ -584,9 +432,6 @@ All of it is on the record.
 </div>
 """, unsafe_allow_html=True)
 
-# ============================================================
-# SECTION IX — ACCOUNTABILITY, AND WHAT IT MEANS
-# ============================================================
 st.markdown('<div class="section">Section IX — Accountability, and Why It Is the Load-Bearing Wall</div>', unsafe_allow_html=True)
 
 st.markdown("""
@@ -639,9 +484,6 @@ Just two people slowly drifting into a canal nobody will remember.
 </div>
 """, unsafe_allow_html=True)
 
-# ============================================================
-# SECTION X — TERMS OF CONTINUED PARTICIPATION
-# ============================================================
 st.markdown('<div class="section">Section X — Terms of Continued Participation</div>', unsafe_allow_html=True)
 
 st.markdown("""
@@ -700,9 +542,6 @@ It just means we are not building the same thing.
 </div>
 """, unsafe_allow_html=True)
 
-# ============================================================
-# SECTION XI — WHAT I AM NOT ASKING FOR
-# ============================================================
 st.markdown('<div class="section">Section XI — What I Am Not Asking For</div>', unsafe_allow_html=True)
 
 st.markdown("""
@@ -715,4 +554,203 @@ st.markdown("""
 st.markdown("""
 <div class="item">
 <span class="num">XI.2</span> I am not asking for perfection. I am asking for direction.
-<span class="sub">Someone moving toward depth, honestly, even imperfectly, is different from someone who cannot move
+<span class="sub">Someone moving toward depth, honestly, even imperfectly, is different from someone who cannot move there at all.</span>
+</div>
+""", unsafe_allow_html=True)
+
+st.markdown("""
+<div class="item">
+<span class="num">XI.3</span> I am not asking you to know everything. I am asking you to be willing to learn — on your own, without me running the classroom.
+<span class="sub">The willingness is yours. The teaching is not mine.</span>
+</div>
+""", unsafe_allow_html=True)
+
+st.markdown("""
+<div class="item">
+<span class="num">XI.4</span> I am not asking you to hurry. I am asking you to move.
+<span class="sub">Time is yours. Direction is not negotiable. Slow movement toward me is real. No movement, slowly, is still no movement.</span>
+</div>
+""", unsafe_allow_html=True)
+
+st.markdown('<div class="section">Section XII — Consequences, Plainly Stated</div>', unsafe_allow_html=True)
+
+st.markdown("""
+<div class="item">
+<span class="num">XII.1</span> If the pattern holds — surface movement, ceiling on depth, no accountability, no willingness to sit in the heavy — then the outcome is already decided, regardless of how either of us feels about it.
+<span class="sub">Not as punishment. As arithmetic. Two people cannot build a house if one of them can only stand in the entryway.</span>
+</div>
+""", unsafe_allow_html=True)
+
+st.markdown("""
+<div class="item">
+<span class="num">XII.2</span> I will not end this out of anger. I will end it, if it ends, because the terms were not met and I am not willing to keep standing in a room that cannot hold me.
+<span class="sub">That is not a threat. That is the same honesty this entire document is built on.</span>
+</div>
+""", unsafe_allow_html=True)
+
+st.markdown("""
+<div class="item">
+<span class="num">XII.3</span> My life moves forward either way. School. Work. Peace. My own ground. That does not pause while I wait for this to resolve.
+<span class="sub">If we end up building together, it will be from two solid foundations — not from one person holding the whole structure up.</span>
+</div>
+""", unsafe_allow_html=True)
+
+st.markdown("""
+<div class="item">
+<span class="num">XII.4</span> This document is not the last word because I am angry. It is the last word because I am done explaining.
+<span class="sub">Explaining is not partnership. Explaining is what one person does when the other person cannot hear. I am done being the person who explains.</span>
+</div>
+""", unsafe_allow_html=True)
+
+st.markdown('<div class="section">Section XIII — What Happens After This</div>', unsafe_allow_html=True)
+
+st.markdown("""
+<div class="item">
+<span class="num">XIII.1</span> I am not asking you to respond today. I am not asking you to perform anything.
+<span class="sub">I am giving you this so there is no confusion about where I stand.</span>
+</div>
+""", unsafe_allow_html=True)
+
+st.markdown("""
+<div class="item">
+<span class="num">XIII.2</span> After this, I will not explain further.
+<span class="sub">No follow-up. No clarification. No re-asking. This document is the entire record, and it is final.</span>
+</div>
+""", unsafe_allow_html=True)
+
+st.markdown("""
+<div class="item">
+<span class="num">XIII.3</span> I will live my life and observe reality.
+<span class="sub">What you do — over time, in the hard moments and not just the easy ones — will be the answer. Whatever it is, I will respect it, including if it is nothing.</span>
+</div>
+""", unsafe_allow_html=True)
+
+st.markdown("""
+<div class="item">
+<span class="num">XIII.4</span> My life continues either way.
+<span class="sub">That is not a threat. That is arithmetic. This statement is the record. What happens next is not a conversation. It is what it is.</span>
+</div>
+""", unsafe_allow_html=True)
+
+st.markdown('<div class="section">Section XIV — Severability</div>', unsafe_allow_html=True)
+
+st.markdown("""
+<div class="item">
+<span class="num">XIV.1</span> If you disagree with any single section of this document, that disagreement does not invalidate the rest.
+<span class="sub">Reality does not become less real because someone disagrees with one part of it. The record stands in full.</span>
+</div>
+""", unsafe_allow_html=True)
+
+st.markdown('<div class="section">Section XV — Acknowledgement of Receipt</div>', unsafe_allow_html=True)
+
+st.markdown("""
+<div class="signature-block">
+This document is considered received the moment it is opened. No signature is required. No reply is required. <br><br>
+A response is information. <br>
+Silence is information. <br>
+Continued surface-level presence without depth is information. <br>
+Real movement toward a partnership is information. <br><br>
+All of it will be observed — not argued with, not chased, not explained.
+</div>
+""", unsafe_allow_html=True)
+
+st.markdown('<div class="section">Section XVI — Final Word</div>', unsafe_allow_html=True)
+
+st.markdown("""
+<div class="item">
+I am not writing this because I stopped loving you. I am writing this because I finally stopped believing that love alone was going to be enough.
+<span class="sub">Love was never the problem. Depth was. Movement was. Language was. Accountability was. Those are not things I can give you. They are things you either bring, or you don't.</span>
+</div>
+""", unsafe_allow_html=True)
+
+st.markdown("""
+<div class="item">
+If you bring them, I will meet you there. If you don't, I will go on. Not because I stopped caring. Because I finally started caring about myself as much as I cared about you.
+<span class="sub">That is the whole statement. Everything above is just detail.</span>
+</div>
+""", unsafe_allow_html=True)
+
+st.markdown("""
+<div class="callout">
+I am not asking you to answer this. I am asking you to live it — or not. Either way, this document is the last time I say it.
+</div>
+""", unsafe_allow_html=True)
+
+st.markdown('<div class="stamp">FINAL · NO REVISIONS</div>', unsafe_allow_html=True)
+
+st.markdown(f"""
+<div class="footer">
+Issued: {issued}<br>
+Document ID: SOA-2026-FINAL-001 · Version: 1.0<br>
+Status: FINAL — no revisions, no amendments, no follow-ups<br>
+This statement is the record. The record stands.<br><br>
+— Suraj Thapa
+</div>
+""", unsafe_allow_html=True)
+
+# ============================================================
+# SECTION XVII — THE FINAL CLOSING
+# ============================================================
+st.markdown('<div class="section">Section XVII — The Final Closing</div>', unsafe_allow_html=True)
+
+st.markdown("""
+<div class="item">
+If you have read this far, you already know where I stand. There is nothing hidden in this document. There is no version I am saving for later. This is the whole record, written once, on purpose.
+<span class="sub">Not because I stopped caring. Because I finally learned that caring without clarity is not love. It is just slow damage to both people.</span>
+</div>
+""", unsafe_allow_html=True)
+
+st.markdown("""
+<div class="item">
+I am not asking you to change overnight. I am not asking you to perform. I am not asking you to match my pace. I am asking you to move — honestly, in your own time, toward depth. That is the only thing this document has ever been about.
+<span class="sub">If you can do that, I will meet you there. If you cannot, I will respect that too — and I will go on.</span>
+</div>
+""", unsafe_allow_html=True)
+
+st.markdown("""
+<div class="item">
+There is one last thing I want on the record. Not for you. For me.
+<span class="sub">I am not the person who wrote this document to win an argument. I am not the person who wrote this to punish you. I am the person who finally wrote down the thing he could not keep saying out loud. That is all this is.</span>
+</div>
+""", unsafe_allow_html=True)
+
+st.markdown("""
+<div class="item">
+My life is not paused here. My school, my work, my peace, my own ground — all of that keeps moving. This document is not me standing still waiting for an answer. This document is me finally doing the one thing I had been avoiding: saying it once, clearly, on paper, and then letting reality speak.
+</div>
+""", unsafe_allow_html=True)
+
+st.markdown("""
+<div class="callout">
+I loved you. I still do. But love without depth, without language, without accountability — that is not a relationship. That is a slow goodbye nobody wants to name. 
+I am naming it. You get to decide what happens next.
+</div>
+""", unsafe_allow_html=True)
+
+st.markdown("""
+<div class="item">
+Whatever you do with this document, one thing will remain true. This record exists now. It is dated. It is permanent. It cannot be forgotten, edited, or rewritten. Whether or not you choose to move, the record of where I stood is already made.
+</div>
+""", unsafe_allow_html=True)
+
+st.markdown("""
+<div class="item">
+And that is enough for me. Not because I stopped hoping. Because I finally started trusting myself enough to let the truth stand on its own — without me standing over it, explaining it, defending it, or chasing the response I hoped for.
+</div>
+""", unsafe_allow_html=True)
+
+st.markdown("""
+<div class="item">
+The rest is yours to do or not do.
+</div>
+""", unsafe_allow_html=True)
+
+st.markdown("""
+<div class="signature-block">
+Filed. Dated. Final. <br><br>
+This is the record. The record stands.<br><br>
+— Suraj Thapa
+</div>
+""", unsafe_allow_html=True)
+
+st.markdown('<div class="stamp">FINAL · NO REVISIONS</div>', unsafe_allow_html=True)
