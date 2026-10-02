@@ -157,7 +157,7 @@ issued = datetime.now().strftime("%B %d, %Y — %H:%M")
 # ============================================================
 st.markdown('<h1 class="title">STATEMENT OF ACCOUNT</h1>', unsafe_allow_html=True)
 st.markdown('<div class="status">FINAL · DUE UPON RECEIPT · NO REVISIONS</div>', unsafe_allow_html=True)
-st.markdown('<div class="subtitle">ISSUED TO STEPHANIE LALAP · ISSUED BY SURAJ THAPA</div>', unsafe_allow_html=True)
+st.markdown('<div class="subtitle">ISSUED TO STEPHANIE · ISSUED BY SURAJ THAPA</div>', unsafe_allow_html=True)
 
 st.markdown(f"""
 <div class="header-block">
@@ -381,6 +381,12 @@ st.markdown("""
 </div>
 """, unsafe_allow_html=True)
 
+st.markdown("""
+<div class="def">
+<b>"Accountability."</b> The ability to look at your own part in a situation, name it honestly, take responsibility for it, and adjust behavior going forward. Not blame. Not justification. Not performance. Not an apology that changes nothing. Accountability is when someone owns what they did and then does something different. Without it, there is no honesty. Without honesty, there is no relationship. It is that simple.
+</div>
+""", unsafe_allow_html=True)
+
 # ============================================================
 # SECTION VI — WHAT I HAVE OBSERVED
 # ============================================================
@@ -509,49 +515,180 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # ============================================================
-# SECTION IX — TERMS OF CONTINUED PARTICIPATION
+# SECTION VIII-B — MY PART, IN FULL
 # ============================================================
-st.markdown('<div class="section">Section IX — Terms of Continued Participation</div>', unsafe_allow_html=True)
+st.markdown('<div class="section">Section VIII-B — My Part, In Full, On the Record</div>', unsafe_allow_html=True)
 
 st.markdown("""
 <div class="item">
-<span class="num">IX.1</span> I will not do the five-month limbo again.
+<span class="num">VIII-B.1</span> I am not going to write a document about your part and leave mine half-inked.
+<span class="sub">The record has to be true. So this section exists to make sure it is.</span>
 </div>
 """, unsafe_allow_html=True)
 
 st.markdown("""
 <div class="item">
-<span class="num">IX.2</span> I will not accept mixed signals as a permanent condition.
+<span class="num">VIII-B.2</span> You came into my life while I was still rebuilding.
+<span class="sub">You saw me during the gambling collapse, the legal shadow, the financial pressure, the shame, the recovery years, the rebuilding of myself from the ground up. You did not meet the finished version. You met the version still figuring it out. That matters. You were part of what made that recovery possible — not by fixing me, but by being present while I did the work.</span>
 </div>
 """, unsafe_allow_html=True)
 
 st.markdown("""
 <div class="item">
-<span class="num">IX.3</span> I will not translate silence into meaning and then be blamed when I translate it wrong.
+<span class="num">VIII-B.3</span> You helped me financially when I needed it.
+<span class="sub">I am not going to pretend that didn't happen, or gloss over it, or write it out of the record to make this document cleaner. You gave what you gave. It mattered. I have been giving back. I will continue to give back. That is not leverage — it is a debt of a different kind. It is real, and it is on the record.</span>
 </div>
 """, unsafe_allow_html=True)
 
 st.markdown("""
 <div class="item">
-<span class="num">IX.4</span> I will not abandon myself to keep you comfortable.
+<span class="num">VIII-B.4</span> I have said things — consciously and unconsciously — that hurt you.
+<span class="sub">Some of them were in the heat of the moment. Some of them were patterns I was not aware of yet. Some of them were the ugly side of my own nervous system reacting before my mind caught up. I am not going to dress them up as something else. They happened. I said them. They were mine.</span>
 </div>
 """, unsafe_allow_html=True)
 
 st.markdown("""
 <div class="item">
-<span class="num">IX.5</span> I will not teach what should already be there.
+<span class="num">VIII-B.5</span> I have apologized for those things, and the apology was real.
+<span class="sub">Not a performance. Not a negotiation. Not a tactic to keep you close. Real. It is on the record because it is part of the record.</span>
 </div>
 """, unsafe_allow_html=True)
 
 st.markdown("""
 <div class="item">
-<span class="num">IX.6</span> I will not wait forever on hope while calling it patience.
+<span class="num">VIII-B.6</span> The gambling was not your fault, and it was not caused by you.
+<span class="sub">But the recovery and the rebuilding that followed — those years happened while you were beside me. I do not want to write those years as if they were neutral. They were not. You were part of the reason I could build again. That is real, and it belongs here.</span>
 </div>
 """, unsafe_allow_html=True)
 
 st.markdown("""
 <div class="item">
-<span class="num">IX.7</span> I will not keep my own depth hidden just to keep the room comfortable.
+<span class="num">VIII-B.7</span> I am not using my past as a defense for anything in this document.
+<span class="sub">Understanding where I came from is context. It is not an excuse. The record I am holding up for you is the same record I am holding up for myself.</span>
+</div>
+""", unsafe_allow_html=True)
+
+st.markdown("""
+<div class="item">
+<span class="num">VIII-B.8</span> If things move toward reality and honesty, I will keep giving back what I owe.
+<span class="sub">Financially and otherwise. Not because I have to. Because it is right, and because it is part of what I said I would do. This is not conditional on you choosing me. It is conditional on reality being honored between us. If reality is honored, I honor my part. That does not change.</span>
+</div>
+""", unsafe_allow_html=True)
+
+st.markdown("""
+<div class="callout">
+This section exists so that no one can ever say this document was one-sided. 
+I have owned my part fully — not just during the rupture, but across the entire history. 
+The good, the bad, the hard, the ugly, the help given and the help owed. 
+All of it is on the record.
+</div>
+""", unsafe_allow_html=True)
+
+# ============================================================
+# SECTION IX — ACCOUNTABILITY, AND WHAT IT MEANS
+# ============================================================
+st.markdown('<div class="section">Section IX — Accountability, and Why It Is the Load-Bearing Wall</div>', unsafe_allow_html=True)
+
+st.markdown("""
+<div class="item">
+<span class="num">IX.1</span> Accountability is not a punishment. It is not a fight. It is not blame. It is the simple act of looking at your own part in something, naming it honestly, and adjusting.
+<span class="sub">Without it, there is no honesty. Without honesty, there is no relationship. Everything else is decoration on a structure that cannot hold weight.</span>
+</div>
+""", unsafe_allow_html=True)
+
+st.markdown("""
+<div class="item">
+<span class="num">IX.2</span> I remember a version of you who could do it. When I held you accountable for something, you would actually look at it. You would apologize. You would mean it. You would move differently afterward.
+<span class="sub">That version of you is one of the reasons I stayed as long as I did. Not because it was convenient. Because it was real.</span>
+</div>
+""", unsafe_allow_html=True)
+
+st.markdown("""
+<div class="item">
+<span class="num">IX.3</span> That version of you is not the version that is here now. Now, when I hold you accountable, it does not land. It does not get looked at. It does not get named. It does not produce an apology or a change.
+<span class="sub">It produces deflection, silence, or a reset to surface level. The same conversation that once produced repair now produces nothing.</span>
+</div>
+""", unsafe_allow_html=True)
+
+st.markdown("""
+<div class="item">
+<span class="num">IX.4</span> I am not saying this to wound you. I am saying it because without accountability, the relationship goes down the drain.
+<span class="sub">Not dramatically. Not in one big moment. Slowly, quietly, the way things fall apart when nobody is naming what is actually happening.</span>
+</div>
+""", unsafe_allow_html=True)
+
+st.markdown("""
+<div class="item">
+<span class="num">IX.5</span> The drain is not a famous one. It is not the kind of ending people write stories about. It is a small, unremarkable, forgettable canal that nobody has ever heard of.
+<span class="sub">That is where relationships go when accountability stops. Not into drama. Into the kind of ending nobody notices until it is already over.</span>
+</div>
+""", unsafe_allow_html=True)
+
+st.markdown("""
+<div class="item">
+<span class="num">IX.6</span> I do not want that for us. But wanting is not enough. If accountability does not come back, everything above this section is moot.
+<span class="sub">This is not a threat. It is the truth. The load-bearing wall of any relationship is the ability of both people to be held accountable and to hold themselves accountable. Without it, the structure falls. Slowly, quietly, without anyone saying it fell.</span>
+</div>
+""", unsafe_allow_html=True)
+
+st.markdown("""
+<div class="callout">
+Accountability is not the punishment. Accountability is the repair. 
+Without it, there is no repair. Without repair, there is no relationship. 
+Just two people slowly drifting into a canal nobody will remember.
+</div>
+""", unsafe_allow_html=True)
+
+# ============================================================
+# SECTION X — TERMS OF CONTINUED PARTICIPATION
+# ============================================================
+st.markdown('<div class="section">Section X — Terms of Continued Participation</div>', unsafe_allow_html=True)
+
+st.markdown("""
+<div class="item">
+<span class="num">X.1</span> I will not do the five-month limbo again.
+</div>
+""", unsafe_allow_html=True)
+
+st.markdown("""
+<div class="item">
+<span class="num">X.2</span> I will not accept mixed signals as a permanent condition.
+</div>
+""", unsafe_allow_html=True)
+
+st.markdown("""
+<div class="item">
+<span class="num">X.3</span> I will not translate silence into meaning and then be blamed when I translate it wrong.
+</div>
+""", unsafe_allow_html=True)
+
+st.markdown("""
+<div class="item">
+<span class="num">X.4</span> I will not abandon myself to keep you comfortable.
+</div>
+""", unsafe_allow_html=True)
+
+st.markdown("""
+<div class="item">
+<span class="num">X.5</span> I will not teach what should already be there.
+</div>
+""", unsafe_allow_html=True)
+
+st.markdown("""
+<div class="item">
+<span class="num">X.6</span> I will not wait forever on hope while calling it patience.
+</div>
+""", unsafe_allow_html=True)
+
+st.markdown("""
+<div class="item">
+<span class="num">X.7</span> I will not keep my own depth hidden just to keep the room comfortable.
+</div>
+""", unsafe_allow_html=True)
+
+st.markdown("""
+<div class="item">
+<span class="num">X.8</span> I will not participate in a relationship where accountability has stopped working.
 </div>
 """, unsafe_allow_html=True)
 
@@ -564,171 +701,18 @@ It just means we are not building the same thing.
 """, unsafe_allow_html=True)
 
 # ============================================================
-# SECTION X — WHAT I AM NOT ASKING FOR
+# SECTION XI — WHAT I AM NOT ASKING FOR
 # ============================================================
-st.markdown('<div class="section">Section X — What I Am Not Asking For</div>', unsafe_allow_html=True)
+st.markdown('<div class="section">Section XI — What I Am Not Asking For</div>', unsafe_allow_html=True)
 
 st.markdown("""
 <div class="item">
-<span class="num">X.1</span> I am not asking you to become a different person. I am asking you to become a person who can go deep with someone who loves you.
+<span class="num">XI.1</span> I am not asking you to become a different person. I am asking you to become a person who can go deep with someone who loves you.
 <span class="sub">If that sounds like a different person to you, that is information.</span>
 </div>
 """, unsafe_allow_html=True)
 
 st.markdown("""
 <div class="item">
-<span class="num">X.2</span> I am not asking for perfection. I am asking for direction.
-<span class="sub">Someone moving toward depth, honestly, even imperfectly, is different from someone who cannot move there at all.</span>
-</div>
-""", unsafe_allow_html=True)
-
-st.markdown("""
-<div class="item">
-<span class="num">X.3</span> I am not asking you to know everything. I am asking you to be willing to learn — on your own, without me running the classroom.
-<span class="sub">The willingness is yours. The teaching is not mine.</span>
-</div>
-""", unsafe_allow_html=True)
-
-st.markdown("""
-<div class="item">
-<span class="num">X.4</span> I am not asking you to hurry. I am asking you to move.
-<span class="sub">Time is yours. Direction is not negotiable. Slow movement toward me is real. No movement, slowly, is still no movement.</span>
-</div>
-""", unsafe_allow_html=True)
-
-# ============================================================
-# SECTION XI — CONSEQUENCES, PLAINLY STATED
-# ============================================================
-st.markdown('<div class="section">Section XI — Consequences, Plainly Stated</div>', unsafe_allow_html=True)
-
-st.markdown("""
-<div class="item">
-<span class="num">XI.1</span> If the pattern holds — surface movement, ceiling on depth, no willingness to sit in the heavy — then the outcome is already decided, regardless of how either of us feels about it.
-<span class="sub">Not as punishment. As arithmetic. Two people cannot build a house if one of them can only stand in the entryway.</span>
-</div>
-""", unsafe_allow_html=True)
-
-st.markdown("""
-<div class="item">
-<span class="num">XI.2</span> I will not end this out of anger. I will end it, if it ends, because the terms were not met and I am not willing to keep standing in a room that cannot hold me.
-<span class="sub">That is not a threat. That is the same honesty this entire document is built on.</span>
-</div>
-""", unsafe_allow_html=True)
-
-st.markdown("""
-<div class="item">
-<span class="num">XI.3</span> My life moves forward either way. School. Work. Peace. My own ground. That does not pause while I wait for this to resolve.
-<span class="sub">If we end up building together, it will be from two solid foundations — not from one person holding the whole structure up.</span>
-</div>
-""", unsafe_allow_html=True)
-
-st.markdown("""
-<div class="item">
-<span class="num">XI.4</span> This document is not the last word because I am angry. It is the last word because I am done explaining.
-<span class="sub">Explaining is not partnership. Explaining is what one person does when the other person cannot hear. I am done being the person who explains.</span>
-</div>
-""", unsafe_allow_html=True)
-
-# ============================================================
-# SECTION XII — WHAT HAPPENS AFTER THIS
-# ============================================================
-st.markdown('<div class="section">Section XII — What Happens After This</div>', unsafe_allow_html=True)
-
-st.markdown("""
-<div class="item">
-<span class="num">XII.1</span> I am not asking you to respond today. I am not asking you to perform anything.
-<span class="sub">I am giving you this so there is no confusion about where I stand.</span>
-</div>
-""", unsafe_allow_html=True)
-
-st.markdown("""
-<div class="item">
-<span class="num">XII.2</span> After this, I will not explain further.
-<span class="sub">No follow-up. No clarification. No re-asking. This document is the entire record, and it is final.</span>
-</div>
-""", unsafe_allow_html=True)
-
-st.markdown("""
-<div class="item">
-<span class="num">XII.3</span> I will live my life and observe reality.
-<span class="sub">What you do — over time, in the hard moments and not just the easy ones — will be the answer. Whatever it is, I will respect it, including if it is nothing.</span>
-</div>
-""", unsafe_allow_html=True)
-
-st.markdown("""
-<div class="item">
-<span class="num">XII.4</span> My life continues either way.
-<span class="sub">That is not a threat. That is arithmetic. This statement is the record. What happens next is not a conversation. It is what it is.</span>
-</div>
-""", unsafe_allow_html=True)
-
-# ============================================================
-# SECTION XIII — SEVERABILITY
-# ============================================================
-st.markdown('<div class="section">Section XIII — Severability</div>', unsafe_allow_html=True)
-
-st.markdown("""
-<div class="item">
-<span class="num">XIII.1</span> If you disagree with any single section of this document, that disagreement does not invalidate the rest.
-<span class="sub">Reality does not become less real because someone disagrees with one part of it. The record stands in full.</span>
-</div>
-""", unsafe_allow_html=True)
-
-# ============================================================
-# SECTION XIV — ACKNOWLEDGEMENT OF RECEIPT
-# ============================================================
-st.markdown('<div class="section">Section XIV — Acknowledgement of Receipt</div>', unsafe_allow_html=True)
-
-st.markdown("""
-<div class="signature-block">
-This document is considered received the moment it is opened. No signature is required. No reply is required. <br><br>
-A response is information. <br>
-Silence is information. <br>
-Continued surface-level presence without depth is information. <br>
-Real movement toward a partnership is information. <br><br>
-All of it will be observed — not argued with, not chased, not explained.
-</div>
-""", unsafe_allow_html=True)
-
-# ============================================================
-# SECTION XV — FINAL WORD (NEW)
-# ============================================================
-st.markdown('<div class="section">Section XV — Final Word</div>', unsafe_allow_html=True)
-
-st.markdown("""
-<div class="item">
-I am not writing this because I stopped loving you. I am writing this because I finally stopped believing that love alone was going to be enough.
-<span class="sub">Love was never the problem. Depth was. Movement was. Language was. Those are not things I can give you. They are things you either bring, or you don't.</span>
-</div>
-""", unsafe_allow_html=True)
-
-st.markdown("""
-<div class="item">
-If you bring them, I will meet you there. If you don't, I will go on. Not because I stopped caring. Because I finally started caring about myself as much as I cared about you.
-<span class="sub">That is the whole statement. Everything above is just detail.</span>
-</div>
-""", unsafe_allow_html=True)
-
-st.markdown("""
-<div class="callout">
-I am not asking you to answer this. I am asking you to live it — or not. Either way, this document is the last time I say it.
-</div>
-""", unsafe_allow_html=True)
-
-# ============================================================
-# STAMP
-# ============================================================
-st.markdown('<div class="stamp">FINAL · NO REVISIONS</div>', unsafe_allow_html=True)
-
-# ============================================================
-# CLOSING
-# ============================================================
-st.markdown(f"""
-<div class="footer">
-Issued: {issued}<br>
-Document ID: SOA-2026-FINAL-001 · Version: 1.0<br>
-Status: FINAL — no revisions, no amendments, no follow-ups<br>
-This statement is the record. The record stands.<br><br>
-— Suraj Thapa
-</div>
-""", unsafe_allow_html=True)
+<span class="num">XI.2</span> I am not asking for perfection. I am asking for direction.
+<span class="sub">Someone moving toward depth, honestly, even imperfectly, is different from someone who cannot move
