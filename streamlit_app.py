@@ -1,3 +1,4 @@
+```python
 import streamlit as st
 from datetime import datetime
 
@@ -43,9 +44,41 @@ st.markdown(f"""
 <b>Issued by:</b> Suraj Thapa<br>
 <b>Date:</b> {issued}<br>
 <b>Document ID:</b> SOA-2026-FINAL-001<br>
-<b>Status:</b> FINAL — no revisions, no amendments, no follow-ups<br>
-<b>Balance:</b> Due upon receipt<br>
+<b>Status:</b> FINAL<br>
 <b>Reference:</b> This document is the record.
+</div>
+""", unsafe_allow_html=True)
+
+st.markdown('<div class="section">Statement of Balance</div>', unsafe_allow_html=True)
+
+st.markdown("""
+<div class="item">
+<span class="num">B.1</span> Three and a half years of shared life. Real. Not erased. <b>Paid in full.</b>
+</div>
+""", unsafe_allow_html=True)
+
+st.markdown("""
+<div class="item">
+<span class="num">B.2</span> Years of rebuilding, including financial help received and given back. <b>Account open. Being settled.</b>
+</div>
+""", unsafe_allow_html=True)
+
+st.markdown("""
+<div class="item">
+<span class="num">B.3</span> Language, depth, accountability, and movement toward a team — the foundation of a real partnership. <b>Outstanding. Due upon receipt.</b>
+</div>
+""", unsafe_allow_html=True)
+
+st.markdown("""
+<div class="item">
+<span class="num">B.4</span> Time and nervous system spent explaining what should not need explaining. <b>No longer being extended as credit.</b>
+</div>
+""", unsafe_allow_html=True)
+
+st.markdown("""
+<div class="callout">
+This is the balance. Not a threat. Not a negotiation. 
+The account is what it is. What happens next is arithmetic.
 </div>
 """, unsafe_allow_html=True)
 
@@ -676,21 +709,6 @@ I am not asking you to answer this. I am asking you to live it — or not. Eithe
 </div>
 """, unsafe_allow_html=True)
 
-st.markdown('<div class="stamp">FINAL · NO REVISIONS</div>', unsafe_allow_html=True)
-
-st.markdown(f"""
-<div class="footer">
-Issued: {issued}<br>
-Document ID: SOA-2026-FINAL-001 · Version: 1.0<br>
-Status: FINAL — no revisions, no amendments, no follow-ups<br>
-This statement is the record. The record stands.<br><br>
-— Suraj Thapa
-</div>
-""", unsafe_allow_html=True)
-
-# ============================================================
-# SECTION XVII — THE FINAL CLOSING
-# ============================================================
 st.markdown('<div class="section">Section XVII — The Final Closing</div>', unsafe_allow_html=True)
 
 st.markdown("""
@@ -754,3 +772,22 @@ This is the record. The record stands.<br><br>
 """, unsafe_allow_html=True)
 
 st.markdown('<div class="stamp">FINAL · NO REVISIONS</div>', unsafe_allow_html=True)
+
+st.markdown(f"""
+<div class="footer">
+Issued: {issued}<br>
+Document ID: SOA-2026-FINAL-001 · Version: 1.0<br>
+Status: FINAL<br>
+This statement is the record. The record stands.<br><br>
+— Suraj Thapa
+</div>
+""", unsafe_allow_html=True)
+```
+
+---
+
+Step 4: Scroll to the very bottom. The last visible line should be:
+
+```
+""", unsafe_allow_html=True)
+```
