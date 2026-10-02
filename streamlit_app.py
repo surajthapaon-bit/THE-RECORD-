@@ -141,11 +141,11 @@ issued = datetime.now().strftime("%B %d, %Y — %H:%M")
 
 st.markdown('<h1 class="title">STATEMENT OF ACCOUNT</h1>', unsafe_allow_html=True)
 st.markdown('<div class="status">FINAL · DUE UPON RECEIPT · NO REVISIONS</div>', unsafe_allow_html=True)
-st.markdown('<div class="subtitle">ISSUED TO STEPHANIE · ISSUED BY SURAJ THAPA</div>', unsafe_allow_html=True)
+st.markdown('<div class="subtitle">ISSUED TO STEPHANIE LALAP · ISSUED BY SURAJ THAPA</div>', unsafe_allow_html=True)
 
 st.markdown(f"""
 <div class="header-block">
-<b>Issued to:</b> Stephanie<br>
+<b>Issued to:</b> Stephanie Lalap<br>
 <b>Issued by:</b> Suraj Thapa<br>
 <b>Date:</b> {issued}<br>
 <b>Status:</b> FINAL — no revisions, no amendments, no follow-ups<br>
